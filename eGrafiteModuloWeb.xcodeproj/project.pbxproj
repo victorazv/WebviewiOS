@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5765DD991EB9284600C1EEC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5765DD981EB9284600C1EEC5 /* AppDelegate.swift */; };
+		5765DD9B1EB9284600C1EEC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5765DD9A1EB9284600C1EEC5 /* ViewController.swift */; };
+		5765DD9E1EB9284600C1EEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5765DD9C1EB9284600C1EEC5 /* Main.storyboard */; };
+		5765DDA01EB9284600C1EEC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5765DD9F1EB9284600C1EEC5 /* Assets.xcassets */; };
+		5765DDA31EB9284600C1EEC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5765DDA11EB9284600C1EEC5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5765DD951EB9284600C1EEC5 /* eGrafiteModuloWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eGrafiteModuloWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5765DD981EB9284600C1EEC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5765DD9A1EB9284600C1EEC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5765DD9D1EB9284600C1EEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5765DD9F1EB9284600C1EEC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5765DDA21EB9284600C1EEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5765DDA41EB9284600C1EEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5765DD921EB9284600C1EEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5765DD8C1EB9284600C1EEC5 = {
+			isa = PBXGroup;
+			children = (
+				5765DD971EB9284600C1EEC5 /* eGrafiteModuloWeb */,
+				5765DD961EB9284600C1EEC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5765DD961EB9284600C1EEC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5765DD951EB9284600C1EEC5 /* eGrafiteModuloWeb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5765DD971EB9284600C1EEC5 /* eGrafiteModuloWeb */ = {
+			isa = PBXGroup;
+			children = (
+				5765DD981EB9284600C1EEC5 /* AppDelegate.swift */,
+				5765DD9A1EB9284600C1EEC5 /* ViewController.swift */,
+				5765DD9C1EB9284600C1EEC5 /* Main.storyboard */,
+				5765DD9F1EB9284600C1EEC5 /* Assets.xcassets */,
+				5765DDA11EB9284600C1EEC5 /* LaunchScreen.storyboard */,
+				5765DDA41EB9284600C1EEC5 /* Info.plist */,
+			);
+			path = eGrafiteModuloWeb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5765DD941EB9284600C1EEC5 /* eGrafiteModuloWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5765DDA71EB9284600C1EEC5 /* Build configuration list for PBXNativeTarget "eGrafiteModuloWeb" */;
+			buildPhases = (
+				5765DD911EB9284600C1EEC5 /* Sources */,
+				5765DD921EB9284600C1EEC5 /* Frameworks */,
+				5765DD931EB9284600C1EEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eGrafiteModuloWeb;
+			productName = eGrafiteModuloWeb;
+			productReference = 5765DD951EB9284600C1EEC5 /* eGrafiteModuloWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5765DD8D1EB9284600C1EEC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Victor Nunes";
+				TargetAttributes = {
+					5765DD941EB9284600C1EEC5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2684V9TB47;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5765DD901EB9284600C1EEC5 /* Build configuration list for PBXProject "eGrafiteModuloWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5765DD8C1EB9284600C1EEC5;
+			productRefGroup = 5765DD961EB9284600C1EEC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5765DD941EB9284600C1EEC5 /* eGrafiteModuloWeb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5765DD931EB9284600C1EEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5765DDA31EB9284600C1EEC5 /* LaunchScreen.storyboard in Resources */,
+				5765DDA01EB9284600C1EEC5 /* Assets.xcassets in Resources */,
+				5765DD9E1EB9284600C1EEC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5765DD911EB9284600C1EEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5765DD9B1EB9284600C1EEC5 /* ViewController.swift in Sources */,
+				5765DD991EB9284600C1EEC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5765DD9C1EB9284600C1EEC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5765DD9D1EB9284600C1EEC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5765DDA11EB9284600C1EEC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5765DDA21EB9284600C1EEC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5765DDA51EB9284600C1EEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5765DDA61EB9284600C1EEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5765DDA81EB9284600C1EEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2684V9TB47;
+				INFOPLIST_FILE = eGrafiteModuloWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = victor.eGrafiteModuloWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5765DDA91EB9284600C1EEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2684V9TB47;
+				INFOPLIST_FILE = eGrafiteModuloWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = victor.eGrafiteModuloWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5765DD901EB9284600C1EEC5 /* Build configuration list for PBXProject "eGrafiteModuloWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5765DDA51EB9284600C1EEC5 /* Debug */,
+				5765DDA61EB9284600C1EEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5765DDA71EB9284600C1EEC5 /* Build configuration list for PBXNativeTarget "eGrafiteModuloWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5765DDA81EB9284600C1EEC5 /* Debug */,
+				5765DDA91EB9284600C1EEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5765DD8D1EB9284600C1EEC5 /* Project object */;
+}
